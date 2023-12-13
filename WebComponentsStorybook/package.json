@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s public",
     "build-storybook-qa-component": "build-storybook -o ../../DesignSystemCloud/QABundle/ComponentStorybook",
     "build-storybook-frontify-component": "build-storybook -o ../../DesignSystemCloud/FrontifyBundle/ComponentStorybook"
   },
