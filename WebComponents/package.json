@@ -1,0 +1,45 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-accordion": "webpack --mode=production --config ./Accordion/webpackAccordion.config.js",
+    "build-breadcrumb": "webpack --mode=production --config ./Breadcrumb/webpackBreadcrumb.config.js",
+    "build-button": "webpack --mode=production --config ./Button/webpackButton.config.js",
+    "build-buttongroup": "webpack --mode=production --config ./ButtonGroup/webpackButtonGroup.config.js",
+    "build-checkbox": "webpack --mode=production --config ./Checkbox/webpackCheckbox.config.js",
+    "build-divider": "webpack --mode=production --config ./Divider/webpackDivider.config.js",
+    "build-dropdown": "webpack --mode=production --config ./Dropdown/webpackDropdown.config.js",
+    "build-fonts": "webpack --mode=production --config ./Fonts/webpackFonts.config.js",
+    "build-icons": "webpack --mode=production --config ./Icons/webpackIcons.config.js",
+    "build-loader-bar": "webpack --mode=production --config ./LoaderBar/webpackLoaderBar.config.js",
+    "build-modal": "webpack --mode=production --config ./Modal/webpackModal.config.js",
+    "build-loaderlogo": "webpack --mode=production --config ./LoaderLogo/webpackLoaderLogo.config.js",
+    "build-notification": "webpack --mode=production --config ./Notification/webpackNotification.config.js",
+    "build-loader-dots": "webpack --mode=production --config ./LoaderDots/webpackLoaderDots.config.js",
+    "build-pagination": "webpack --mode=production --config ./Pagination/webpackPagination.config.js",
+    "build-profile": "webpack --mode=production --config ./Profile/webpackProfile.config.js",
+    "build-radiobutton": "webpack --mode=production --config ./RadioButton/webpackRadioButton.config.js",
+    "build-slider": "webpack --mode=production --config ./Slider/webpackSlider.config.js",
+    "build-tabs": "webpack --mode=production --config ./Tabs/webpackTabs.config.js",
+    "build-tags": "webpack --mode=production --config ./Tags/webpackTags.config.js",
+    "build-textarea": "webpack --mode=production --config ./Textarea/webpackTextarea.config.js",
+    "build-textinput": "webpack --mode=production --config ./TextInput/webpackTextInput.config.js",
+    "build-toggle-button": "webpack --mode=production --config ./ToggleButton/webpackToggleButton.config.js",
+    "build-toggle-switch": "webpack --mode=production --config ./ToggleSwitch/webpackToggleSwitch.config.js",
+    "build-tooltip": "webpack --mode=production --config ./Tooltip/webpackTooltip.config.js",
+    "build-videoplayer": "webpack --mode=production --config ./VideoPlayer/webpackVideoPlayer.config.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}

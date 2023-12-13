@@ -1,0 +1,190 @@
+export const PATH_STYLE = "path";
+export const STYLE_OBJECT = "style"
+export const COMPONENT_VARIANT_KEY = "variantKey"
+export const STYLE_KEY = "styleKey"
+
+// VIEWPORTS CEIL DIMENSIONS
+export const MAX_WIDTH_SMALL_OPTION = 764
+export const MAX_WIDTH_MEDIUM_OPTION = 1016
+export const MAX_WIDTH_LARGE_OPTION = 1436
+
+
+//BRAND COLORS
+//ATLANTIC
+export const BRAND_ATLANTIC_15="#0B232B"
+export const BRAND_ATLANTIC_14="#0D2A33"
+export const BRAND_ATLANTIC_13="#0F313C"
+export const BRAND_ATLANTIC_12="#113844"
+export const BRAND_ATLANTIC_11="#133F4D"
+export const BRAND_ATLANTIC_10="#164756"
+export const BRAND_ATLANTIC_9="#2D5966"
+export const BRAND_ATLANTIC_8="#446B77"
+export const BRAND_ATLANTIC_7="#567984"
+export const BRAND_ATLANTIC_6="#698892"
+export const BRAND_ATLANTIC_5="#7C979F"
+export const BRAND_ATLANTIC_4="#8EA6AD"
+export const BRAND_ATLANTIC_3="#A1B5BB"
+export const BRAND_ATLANTIC_2="#B4C3C8"
+export const BRAND_ATLANTIC_1="#C6D2D6"
+//BRAND_CLAY
+export const BRAND_CLAY_15="#492C17"
+export const BRAND_CLAY_14="#57341B"
+export const BRAND_CLAY_13="#633D20"
+export const BRAND_CLAY_12="#744624"
+export const BRAND_CLAY_11="#934F29"
+export const BRAND_CLAY_10="#92582E"
+export const BRAND_CLAY_9="#9C6842"
+export const BRAND_CLAY_8="#A77957"
+export const BRAND_CLAY_7="#AF8667"
+export const BRAND_CLAY_6="#B89378"
+export const BRAND_CLAY_5="#C1A189"
+export const BRAND_CLAY_4="#CAAE9A"
+export const BRAND_CLAY_3="#D3BCAB"
+export const BRAND_CLAY_2="#DBC9BB"
+export const BRAND_CLAY_1="#E4D6CC"
+//BRAND_BONE
+export const BRAND_BONE_15="#6A6157"
+export const BRAND_BONE_14="#7F7469"
+export const BRAND_BONE_13="#95877A"
+export const BRAND_BONE_12="#AA9B8C"
+export const BRAND_BONE_11="#BFAE9D"
+export const BRAND_BONE_10="#D5C2AF"
+export const BRAND_BONE_9="#D9C8B7"
+export const BRAND_BONE_8="#DDCEBF"
+export const BRAND_BONE_7="#E0D2C5"
+export const BRAND_BONE_6="#E3D7CB"
+export const BRAND_BONE_5="#E7DCD2"
+export const BRAND_BONE_4="#EAE1D8"
+export const BRAND_BONE_3="#EEE6DF"
+export const BRAND_BONE_2="#F1EBE5"
+export const BRAND_BONE_1="#F4F0EB"
+//ALERT_GREEN
+export const ALERT_GREEN_15="#012F11"
+export const ALERT_GREEN_14="#023F17"
+export const ALERT_GREEN_13="#035F22"
+export const ALERT_GREEN_12="#047F2E"
+export const ALERT_GREEN_11="#048F34"
+export const ALERT_GREEN_10="#059F3A"
+export const ALERT_GREEN_9="#1DA84D"
+export const ALERT_GREEN_8="#36B261"
+export const ALERT_GREEN_7="#50BB75"
+export const ALERT_GREEN_6="#61C182"
+export const ALERT_GREEN_5="#72C890"
+export const ALERT_GREEN_4="#84CF9E"
+export const ALERT_GREEN_3="#96D6AC"
+export const ALERT_GREEN_2="#A7DDBA"
+export const ALERT_GREEN_1="#B9E3C7"
+//ALERT_ORANGE
+export const ALERT_ORANGE_15="#763B13"
+export const ALERT_ORANGE_14="#8D4617"
+export const ALERT_ORANGE_13="#A5521B"
+export const ALERT_ORANGE_12="#BC5E1F"
+export const ALERT_ORANGE_11="#D46A23"
+export const ALERT_ORANGE_10="#EC7627"
+export const ALERT_ORANGE_9="#ED833C"
+export const ALERT_ORANGE_8="#EF9152"
+export const ALERT_ORANGE_7="#F09C63"
+export const ALERT_ORANGE_6="#F2A774"
+export const ALERT_ORANGE_5="#F3B285"
+export const ALERT_ORANGE_4="#F5BD97"
+export const ALERT_ORANGE_3="#F7C8A8"
+export const ALERT_ORANGE_2="#F8D3B9"
+export const ALERT_ORANGE_1="#FADECB"
+//ALERT_RED
+export const ALERT_RED_15="#6A0E0E"
+export const ALERT_RED_14="#7F1010"
+export const ALERT_RED_13="#941313"
+export const ALERT_RED_12="#A91616"
+export const ALERT_RED_11="#BE1919"
+export const ALERT_RED_10="#D41C1C"
+export const ALERT_RED_9="#D83232"
+export const ALERT_RED_8="#DC4949"
+export const ALERT_RED_7="#DF5B5B"
+export const ALERT_RED_6="#E36D6D"
+export const ALERT_RED_5="#E67F7F"
+export const ALERT_RED_4="#EA9191"
+export const ALERT_RED_3="#EDA4A4"
+export const ALERT_RED_2="#F1B6B6"
+export const ALERT_RED_1="#F4C8C8"
+
+//NEUTRAL PALETTE
+//GREY_SCALE
+export const BLACK = "#100E0E"
+export const GREY = "#6C6B6B"
+export const DARK_GREY= "#74777B"
+export const OFF_WHITE = "#A7A7A7"
+export const MEDIUM_GREY = "#D1CECE"
+export const LIGHT_GREY = "#F7F7F7"
+export const WHITE = "#FCFCFC"
+
+//VALIDATING
+export const VALIDATED_COLOR= "#007C87"
+
+//PRIMARY DARK
+export const PRIMARY_BUTTON_DARK_ACTIVE = BLACK
+export const PRIMARY_BUTTON_DARK_HOVER = DARK_GREY
+export const PRIMARY_BUTTON_DARK_INACTIVE = MEDIUM_GREY
+//PRIMARY LIGHT
+export const PRIMARY_BUTTON_LIGHT_ACTIVE = BRAND_BONE_10
+export const PRIMARY_BUTTON_LIGHT_HOVER = WHITE
+export const PRIMARY_BUTTON_LIGHT_INACTIVE = DARK_GREY
+
+//SECONDARY DARK
+export const SECONDARY_BUTTON_DARK_ACTIVE = DARK_GREY
+export const SECONDARY_BUTTON_DARK_HOVER = MEDIUM_GREY
+export const SECONDARY_BUTTON_DARK_INACTIVE = BLACK
+//SECONDARY LIGHT
+export const SECONDARY_BUTTON_LIGHT_ACTIVE = WHITE
+export const SECONDARY_BUTTON_LIGHT_HOVER = WHITE
+export const SECONDARY_BUTTON_LIGHT_INACTIVE = DARK_GREY
+
+//HYPERLINK ALTERNATIVE
+export const LINK_ALTERNATIVE_ACTIVE = ALERT_GREEN_12
+export const LINK_ALTERNATIVE_HOVER = ALERT_GREEN_9
+
+//DESTRUCTIVE DARK
+export const DELETE_BUTTON_DARK_ACTIVE = ALERT_RED_8
+export const DELETE_BUTTON_DARK_HOVER = ALERT_RED_7
+export const DELETE_BUTTON_DARK_INACTIVE = ALERT_RED_15
+//DESTRUCTIVE LIGHT
+export const DELETE_BUTTON_LIGHT_ACTIVE = ALERT_RED_12
+export const DELETE_BUTTON_LIGHT_HOVER = ALERT_RED_8
+export const DELETE_BUTTON_LIGHT_INACTIVE = ALERT_RED_1
+
+//TYPOGRAFY
+export const TYPOGRAPHY_01 = BLACK
+export const TYPOGRAPHY_02 = GREY
+export const TYPOGRAPHY_03 = WHITE
+export const TYPOGRAPHY_04 = OFF_WHITE
+
+//BACKGROUND
+export const BACKGROUND_01 = BLACK
+export const BACKGROUND_02 = LIGHT_GREY
+export const BACKGROUND_03 = WHITE
+
+//INTERFACE
+export const INTERFACE_01 = BLACK
+export const INTERFACE_02 = GREY
+export const INTERFACE_03 = MEDIUM_GREY
+export const INTERFACE_04 = LIGHT_GREY
+export const INTERFACE_05 = WHITE
+export const INTERFACE_06 = BRAND_BONE_10
+export const INTERFACE_07 = BRAND_ATLANTIC_10
+export const INTERFACE_08 = BRAND_CLAY_10
+export const INTERFACE_09 = ALERT_ORANGE_7
+
+//ICON
+export const ICON_01 = BLACK
+export const ICON_02 = WHITE
+export const ICON_03 = GREY
+export const ICON_04 = OFF_WHITE
+export const ICON_05_LIGHT_THEME = ALERT_RED_12
+export const ICON_06_DARK_THEME = ALERT_RED_8
+export const ICON_07 = ALERT_GREEN_10
+
+//ALERT
+export const ALERT_SUCCESS = ALERT_GREEN_10
+export const ALERT_WARNING = ALERT_ORANGE_10
+export const DANGER_LIGHT_THEME = ALERT_RED_12
+export const DANGER_DARK_THEME = ALERT_RED_8
+

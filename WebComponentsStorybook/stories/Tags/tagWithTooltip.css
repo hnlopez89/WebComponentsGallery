@@ -1,0 +1,32 @@
+.wrapper{
+    display: block;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperTag {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+.wt{
+    width: fit-content;
+    height: fit-content;
+}
+.wrapperTooltip{
+    position: absolute;
+    right: 0px;
+    width: fit-content;
+    transform: translateY(-100%);
+    top: 0px;
+    width: 286px;
+    opacity: 0;
+    transition: 2s all ease-in-out,
+}
+
+.wrapperTooltipOnClick
+{
+    opacity: 1;
+}
